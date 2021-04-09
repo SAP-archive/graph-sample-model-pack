@@ -1,6 +1,6 @@
 # SAP Graph Sample Model Pack
 
-The SAP Graph `sample model pack` can be use to configure an SAP Graph tenant. It contains translation files for the following ODM entities:
+The SAP Graph `sample model pack` can be used to configure an SAP Graph tenant. It contains translation files for the following ODM entities:
 
 <table>
   <thead>
