@@ -61,7 +61,7 @@ The samples are provided on the "as-is" basis. Currently, there are no known iss
 
 ## How to obtain support
 
-[Create an issue](https://github.com/SAP-samples/graph-example-model-pack/issues) in this repository if you find a bug or have questions about the content.
+[Create an issue](https://github.com/SAP-samples/graph-sample-model-pack/issues) in this repository if you find a bug or have questions about the content.
 
 For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
 
