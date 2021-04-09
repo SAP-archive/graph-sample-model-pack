@@ -1,0 +1,24 @@
+{
+    "version": "1.2.4",
+    "author": "SAP SE",
+    "schemaVersion": "v2-beta-2021-02-26",
+    "description": "Supplier based on Business Partner on S/4 HANA",
+    "ODMversion": "2.2.0",
+    "entity": "sap.odm.procurement.Supplier",
+    "entityVersion": "0.32.0",
+    "sourceEntities": [
+      { 
+        "name": "API_BUSINESS_PARTNER.A_BusinessPartner", 
+        "version": "1", 
+        "filter": "Supplier ne ''" 
+      }
+    ],
+    "mirrors": [
+      // extend entity by attribute "z_custom_attribute_renamed" that is translated to "z_custom_attribute" of source entity
+      // { "name": "z_custom_attribute_renamed", "source": ["z_custom_attribute"] }
+  
+      // short notation without renaming: extend entity by attribute "z_custom_attribute" from source entity
+      // "z_custom_attribute", 
+    ]
+  }
+  

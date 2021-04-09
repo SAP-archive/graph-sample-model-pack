@@ -1,0 +1,25 @@
+{
+  "version": "1.2.4",
+  "author": "SAP SE",
+  "schemaVersion": "v2-beta-2021-02-26",
+  "description": "Extension translation file for Customer based on BusinessPartner on S/4HANA",
+
+  "ODMversion": "2.2.0",
+  "entity": "sap.odm.sales.Customer",
+  "entityVersion": "0.42.0",
+  "sourceEntities": [
+    {
+      "name": "API_BUSINESS_PARTNER.A_BusinessPartner",
+      "version": "1",
+      "filter": "Customer ne ''"
+    }
+  ],
+
+  "mirrors": [
+    // extend entity by attribute "z_custom_attribute_renamed" that is translated to "z_custom_attribute" of source entity
+    // { "name": "z_custom_attribute_renamed", "source": ["z_custom_attribute"] }
+
+    // short notation without renaming: extend entity by attribute "z_custom_attribute" from source entity
+    // "z_custom_attribute", 
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "version": "1.2.3",
+    "author": "SAP SE",
+    "schemaVersion": "v2-beta-2021-02-26",
+    "description": "Extension translation file for CustomerOrder based on SalesOrder on S/4HANA",
+    "ODMversion": "2.2.0",
+    "entity": "sap.odm.sales.CustomerOrder",
+    "entityVersion": "0.20.0",
+    "sourceEntities": [
+        {
+            "name": "API_SALES_ORDER_SRV.A_SalesOrder",
+            "version": "1"
+        }
+    ],
+    "mirrors": [
+      // extend entity by attribute "z_custom_attribute_renamed" that is translated to "z_custom_attribute" of source entity
+      // { "name": "z_custom_attribute_renamed", "source": ["z_custom_attribute"] }
+
+      // short notation without renaming: extend entity by attribute "z_custom_attribute" from source entity
+      // "z_custom_attribute", 
+    ]
+}

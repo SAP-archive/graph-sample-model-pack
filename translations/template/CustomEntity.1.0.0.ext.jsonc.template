@@ -1,0 +1,19 @@
+{
+    "version": "1.0.0",
+    "schemaVersion": "v2-beta-2021-02-26",
+    "description": "Translation file for a custom entity",
+    "entity": "your.custom.Entity",
+    "entityVersion": "1.0.0",
+    "sourceEntities": [
+        {
+            "name": "<service>.<sourceEntity>" // name of entity in the source model
+        }
+    ],
+    "mirrors": [
+        // extend entity by attribute "z_custom_attribute_renamed" that is translated to "z_custom_attribute" of source entity
+        // { "name": "z_custom_attribute_renamed", "source": ["z_custom_attribute"] }
+
+        // short notation without renaming: extend entity by attribute "z_custom_attribute" from source entity
+        // "z_custom_attribute",
+    ]      
+}

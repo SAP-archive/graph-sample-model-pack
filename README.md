@@ -1,34 +1,69 @@
-# SAP Graph Example Model-Pack
+# SAP Graph Sample Model Pack
 
-## Description
+The SAP Graph `sample model pack` can be use to configure an SAP Graph tenant. It contains translation files for the following ODM entities:
 
-Example configuration for SAP Graph, containing a mini model with Customer, CustomerOrder, CustomerQuote, Product, plus instructions for connecting this to sandbox systems.
+<table>
+  <thead>
+    <tr>
+      <th>ODM Entity</th>
+      <th colspan="2">Corresponding Source Entity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></th>
+      <td><b>S/4 HANA Cloud<b></td>
+      <td><b>Sales Cloud (C4C)</b></td>
+    </tr>
+    <tr>
+      <td>BusinessPartner</td>
+      <td>A_BusinessPartner</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Customer</td>
+      <td>A_BusinessPartner</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CustomerOrder</td>
+      <td>A_SalesOrder</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CustomerQuote</td>
+      <td></td>
+      <td>A_SalesQuoteCollection</td>
+    </tr>
+    <tr>
+      <td>Product</td>
+      <td>A_Product</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Supplier</td>
+      <td>A_BusinessPartner</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
-## Requirements
+In addition, the `sample model pack` contains templates to extend the SAP Graph model. 
 
-> TODO
->
-> - BTP global account
-> - ...
-> - see instructions in [SAP Graph Service on SAP BTP](https://explore.graph.sap/docs/beta/graph-service-setup)
+1. A template to extend the model by a custom entity (for example, translations/template/CustomEntity.1.0.0.ext.jsonc.template)
+2. Templates to extend ODM entities by custom attributes (for example, s4/sap/odm/product/Product.0.75.0.ext.jsonc)
 
-## Download and Installation
-
-> TODO
+For more information on how to configure SAP Graph, see [Documentation](https://explore.graph.sap/docs/beta/configure/configure-graph)
 
 ## Known Issues
 
-None.
+The samples are provided on the "as-is" basis. Currently, there are no known issues for the `sample model pack`.
 
 ## How to obtain support
 
 [Create an issue](https://github.com/SAP-samples/graph-example-model-pack/issues) in this repository if you find a bug or have questions about the content.
 
 For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
-
-## Contributing
-
-> TODO
 
 ## License
 
