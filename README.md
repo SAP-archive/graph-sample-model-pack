@@ -35,7 +35,7 @@ The SAP Graph `sample model pack` can be used to configure an SAP Graph tenant. 
     <tr>
       <td>CustomerQuote</td>
       <td></td>
-      <td>A_SalesQuoteCollection</td>
+      <td>SalesQuoteCollection</td>
     </tr>
     <tr>
       <td>Product</td>
