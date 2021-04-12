@@ -13,9 +13,9 @@ The SAP Graph `sample model pack` can be used to configure an SAP Graph tenant. 
   </thead>
   <tbody>
     <tr>
-      <td></th>
-      <td><b>S/4 HANA Cloud<b></td>
-      <td><b>Sales Cloud (C4C)</b></td>
+      <td></td>
+      <td><b>SAP S/4HANA Cloud<b></td>
+      <td><b>SAP Sales Cloud</b></td>
     </tr>
     <tr>
       <td>BusinessPartner</td>
