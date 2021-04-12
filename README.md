@@ -1,5 +1,7 @@
 # SAP Graph Sample Model Pack
 
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/graph-sample-model-pack)](https://api.reuse.software/info/github.com/SAP-samples/graph-sample-model-pack)
+
 The SAP Graph `sample model pack` can be used to configure an SAP Graph tenant. It contains translation files for the following ODM entities:
 
 <table>
