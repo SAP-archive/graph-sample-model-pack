@@ -2,7 +2,21 @@
 
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/graph-sample-model-pack)](https://api.reuse.software/info/github.com/SAP-samples/graph-sample-model-pack)
 
-The SAP Graph `sample model pack` can be used to configure an SAP Graph tenant. It contains translation files for the following ODM entities:
+## What is SAP Graph
+
+The SAP Graph API is the single interface for unified access to interconnected data across SAP products.
+
+SAP Graph is a network of connected data objects that are stored and owned across different SAP solutions and technologies. The data objects that are made accessible through SAP Graph in an interconnected data model can be consumed through an HTTP-based API, which exposes data from multiple SAP systems in a unified schema.
+
+SAP Graph’s API exposes a unified graph-like model of business objects (entities) and relationships. SAP Graph uses open standards, such as OData v.4 and OAuth, thus allowing you to easily build applications and extensions for the SAP Intelligent Enterprise. In short, SAP Graph API handles the connectivity to the correct data in the correct systems through a single interface.
+
+## About the Sample Model Pack
+
+You can determine the shape of the model that will be exposed by your SAP Graph tenant. SAP provides a starting point, the SAP One Domain Model, and a set of corresponding translations, which is how SAP Graph implements SAP One Domain Model on top of the `dataSources` that you activated when you configured your `landscape`.
+
+The `model` contains translation files that define the entities exposed in the SAP Graph API. SAP Graph provides a `sample model pack` that include the following six translation files of SAP One Domain Model entities:
+
+**Note: In this beta release, non-productive translation files are provided.**
 
 <table>
   <thead>
