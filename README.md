@@ -69,11 +69,11 @@ In addition, the `sample model pack` contains templates to extend the SAP Graph 
 1. A template to extend the model by a custom entity (see translations/template/CustomEntity.1.0.0.ext.jsonc.template)
 2. Templates to extend ODM entities by custom attributes (see for example, s4/sap/odm/product/Product.0.75.0.ext.jsonc)
 
-For more information on how to configure SAP Graph, see [Documentation](https://explore.graph.sap/docs/beta/configure/configure-graph)
+For more information, see [Configure the SAP Graph Tenant](https://explore.graph.sap/docs/beta/configure/configure-graph)
 
 ## Known Issues
 
-The samples are provided on the "as-is" basis. Currently, there are no known issues for the `sample model pack`.
+The samples are provided on an "as-is" basis. Currently, there are no known issues for the `sample model pack`.
 
 ## How to obtain support
 
