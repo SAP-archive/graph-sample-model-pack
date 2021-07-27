@@ -2,6 +2,8 @@
 
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/graph-sample-model-pack)](https://api.reuse.software/info/github.com/SAP-samples/graph-sample-model-pack)
 
+**Note: The non-productive translations files are no longer required and have been deprecated. SAP Graph now provides translations automatically for SAP One Domain Model entities.**
+
 ## What is SAP Graph
 
 The SAP Graph API is the single interface for unified access to interconnected data across SAP products.
